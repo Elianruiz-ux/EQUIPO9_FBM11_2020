@@ -1,0 +1,60 @@
+.Busc h1{
+    color: #007bff;
+    text-align: center;
+    padding: 70px 200px 50px 200px  ;
+
+}
+
+.Buscar p{
+    text-align: center;
+    padding: 70px 200px 50px 200px  ;
+}
+.form-control1{
+    text-align: center;
+    justify-content: center;
+    width: 1000px, center;
+    
+    
+}.btn{
+    text-align: center;
+    justify-content: center;
+    padding: -1px 200px 0px 200px  ;
+    
+}
+.parrafo img{
+    width: 500px;
+    height: 400px;
+    margin-left: 70px;
+    margin-top: 0px;
+    display: flex;
+}
+.imagenes{
+    width: 400px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 70px 200px 0px 130px  ;
+    display: flex;
+    
+}
+.imagenes{
+    margin: 70px 0px 180px 0px;
+}
+@media screen and (max-width: 480px){
+    .Buscar{
+        padding: 30px 100px 30px 100px   ;
+    }
+    .Busc{
+        padding: 10px 20px 10px 20px;
+        margin: 10px 20px 10px 20px;
+    }
+   .imagenes{
+    flex-direction: column;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 300px;
+    height: 200px;
+    margin: 10px 20px 10px 20px;
+    padding:10px 20px 10px 0px;
+   }
+}
